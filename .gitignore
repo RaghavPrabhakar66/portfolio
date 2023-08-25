@@ -1,9 +1,12 @@
 # Ruby Gems
 *.gem
 
-# Design Files
-*.psd
-*.ai
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# IntelliJ
-.idea
+# Vscode
+.vscode/
+settings.json

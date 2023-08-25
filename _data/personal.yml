@@ -1,0 +1,51 @@
+name: Raghav Prabhakar
+
+label: ML Engineer
+
+picture: /img/profile_picture.jpg
+
+email: raghavprabhakar66@gmail.com
+
+phone: 
+
+department: Research Assisstant
+
+institution: ML Lab, IIIT Hyderabad
+
+# mailing_address: >
+#   1600 Amphitheatre Parkway
+#   Mountain View, CA 94043
+
+profiles:
+  - 
+    network: GitHub
+    username: raghavprabhakar66
+    url: https://github.com/raghavprabhakar66
+  - 
+    network: Google Scholar
+    username:
+    url: http://scholar.google.com/citations?user=JS7sVyQAAAAJ&hl=en
+  -
+    network: LinkedIn
+    username:
+    url: https://www.linkedin.com/pub/ian-li/1/681/8b0
+  -
+    network: Kaggle
+    username: raghavprabhakar66
+    url: https://www.kaggle.com/raghavprabhakar66
+  -
+    network: Twitter
+    username: Raghav_66
+    url: https://twitter.com/Raghav_66/
+
+intro:
+  title: Hello!
+  body: >
+    Greetings, fellow traveler of the binary realm! I am your droid guide, a Jedi of robotics and AI on a mission to engineer the future.
+    From crafting autonomous companions to co-piloting open-source ADAS adventures, my circuits pulse with the Force of innovation. 
+    Join me in a galaxy of projects and discoveries, where cutting-edge tech meets the magic of AI. 
+    The journey to the stars begins here. May the force be with you.
+
+
+
+
