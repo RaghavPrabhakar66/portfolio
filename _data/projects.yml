@@ -19,7 +19,7 @@
 
 -
   name: Nucleus Segmentation From 2D Scans
-  image: /img/face_recogntion_system.jpg
+  image: /img/cell.jpg
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
     Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
@@ -28,7 +28,7 @@
 
 -
   name: Image Captioningp
-  image: /img/face_recogntion_system.jpg
+  image: /img/cell.jpg
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
     Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 

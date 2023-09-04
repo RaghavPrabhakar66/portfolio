@@ -1,0 +1,342 @@
+
+.word-container {
+    width: 20px;
+    padding-bottom: 50px;
+    color: #19f085;
+}
+  
+.word {
+    /* font-family: 'ADLaM Display', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Itim', cursive;
+    font-size:60px;
+    font-weight:bold;
+    float:left;
+    opacity:0;
+    position:absolute;
+    color: #19f085;
+    /* letter-spacing: 3px;  */
+  }
+  
+  .w1 {
+    animation: w1anim 45s infinite;
+  }
+  
+  .w2 {
+    animation: w2anim 45s infinite;
+  }
+  
+  .w3 {
+    animation: w3anim 45s infinite;
+  }
+  
+  .w4 {
+    animation: w4anim 45s infinite;
+  }
+  
+  .w5 {
+    animation: w5anim 45s infinite;
+  }
+
+  .w6 {
+    animation: w6anim 45s infinite;
+  }
+
+  .w7 {
+    animation: w7anim 45s infinite;
+  }
+
+  .w8 {
+    animation: w8anim 45s infinite;
+  }
+
+  .w9 {
+    animation: w9anim 45s infinite;
+  }
+
+  .w10 {
+    animation: w10anim 45s infinite;
+  }
+
+  .w11 {
+    animation: w11anim 45s infinite;
+  }
+
+  .w12 {
+    animation: w12anim 45s infinite;
+  }
+
+  .w13 {
+    animation: w13anim 45s infinite;
+  }
+
+  .w14 {
+    animation: w14anim 45s infinite;
+  }
+
+  .w15 {
+    animation: w15anim 45s infinite;
+  }
+
+  .w16 {
+    animation: w16anim 45s infinite;
+  }
+
+    .w17 {
+        animation: w17anim 45s infinite;
+    }
+
+    .w18 {
+        animation: w18anim 45s infinite;
+    }
+
+    .w19 {
+        animation: w19anim 45s infinite;
+    }
+
+    .w20 {
+        animation: w20anim 45s infinite;
+    }
+  
+  
+  @keyframes w1anim {
+    0%{
+      opacity: 0;
+    }
+    2.5%{
+      opacity: 1;
+    }
+    5% {
+      opacity:0;
+    }
+  }
+  
+  
+  @keyframes w2anim {
+    5%{
+      opacity: 0;
+    }
+    7.5%{
+      opacity: 1;
+    }
+    10% {
+      opacity:0;
+    }
+  }
+  
+  @keyframes w3anim {
+    10%{
+      opacity: 0;
+    }
+    12.5%{
+      opacity: 1;
+    }
+    15% {
+      opacity:0;
+    }
+  }
+  
+  @keyframes w4anim {
+    15%{
+      opacity: 0;
+    }
+    17.5%{
+      opacity: 1;
+    }
+    20% {
+      opacity:0;
+    }
+  }
+  
+  @keyframes w5anim {
+    20%{
+      opacity: 0;
+    }
+    22.5%{
+      opacity: 1;
+    }
+    25% {
+      opacity:0;
+    }
+  }
+
+  @keyframes w6anim {
+    25%{
+      opacity: 0;
+    }
+    27.5%{
+      opacity: 1;
+    }
+    30% {
+      opacity:0;
+    }
+  }
+
+    @keyframes w7anim {
+        30%{
+        opacity: 0;
+        }
+        32.5%{
+        opacity: 1;
+        }
+        35% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w8anim {
+        35%{
+        opacity: 0;
+        }
+        37.5%{
+        opacity: 1;
+        }
+        40% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w9anim {
+        40%{
+        opacity: 0;
+        }
+        42.5%{
+        opacity: 1;
+        }
+        45% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w10anim {
+        45%{
+        opacity: 0;
+        }
+        47.5%{
+        opacity: 1;
+        }
+        50% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w11anim {
+        50%{
+        opacity: 0;
+        }
+        52.5%{
+        opacity: 1;
+        }
+        55% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w12anim {
+        55%{
+        opacity: 0;
+        }
+        57.5%{
+        opacity: 1;
+        }
+        60% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w13anim {
+        60%{
+        opacity: 0;
+        }
+        62.5%{
+        opacity: 1;
+        }
+        65% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w14anim {
+        65%{
+        opacity: 0;
+        }
+        67.5%{
+        opacity: 1;
+        }
+        70% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w15anim {
+        70%{
+        opacity: 0;
+        }
+        72.5%{
+        opacity: 1;
+        }
+        75% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w16anim {
+        75%{
+        opacity: 0;
+        }
+        77.5%{
+        opacity: 1;
+        }
+        80% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w17anim {
+        80%{
+        opacity: 0;
+        }
+        82.5%{
+        opacity: 1;
+        }
+        85% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w18anim {
+        85%{
+        opacity: 0;
+        }
+        87.5%{
+        opacity: 1;
+        }
+        90% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w19anim {
+        90%{
+        opacity: 0;
+        }
+        92.5%{
+        opacity: 1;
+        }
+        95% {
+        opacity:0;
+        }
+    }
+
+    @keyframes w20anim {
+        95%{
+        opacity: 0;
+        }
+        97.5%{
+        opacity: 1;
+        }
+        100% {
+        opacity:0;
+        }
+    }

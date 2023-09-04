@@ -11,9 +11,13 @@
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/{{ site.data.personal.favicon }}">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Itim&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/albertine/css/default.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/albertine/css/shiny.css">
 
     <!-- Javascript -->
     <script src="https://kit.fontawesome.com/79eb761eec.js" crossorigin="anonymous"></script>
@@ -45,7 +49,7 @@
                 </div>
                 <div class="col-xs-2 col-lg-2">
                     <h1>
-                        <a href="">Resume</a>
+                        <a href="{{ site.baseurl }}/files/RaghavPrabhakar_Resume.pdf">Resume</a>
                     </h1>
                 </div>
                 <div class="col-xs-2 col-lg-2">
@@ -64,7 +68,29 @@
             <section class="col-md-8">
                 {% if site.data.personal.intro.title %}
                 <h3 style="font-size:48px">
-                    {{ site.data.personal.intro.title }}
+                    <!-- {{ site.data.personal.intro.title }} -->
+                    <div class="word-container">
+                        <div class="word w1 en">Hello! 👋</div>
+                        <div class="word w2 fr">Bonjour! 👋</div>
+                        <div class="word w3 es">Hola! 👋</div>
+                        <div class="word w4 ru">Zdravstvuyte! 👋</div>
+                        <div class="word w5 zh">Nǐn hǎo! 👋</div>
+                        <div class="word w6 ar">Marhabaan! 👋</div>
+                        <div class="word w7 ja">Kon'nichiwa! 👋</div>
+                        <div class="word w8 de">Hallo! 👋</div>
+                        <div class="word w9 it">Ciao! 👋</div>
+                        <div class="word w10 pt">Olá! 👋</div>
+                        <div class="word w11 nl">Hallo! 👋</div>
+                        <div class="word w12 pl">Cześć! 👋</div>
+                        <div class="word w13 sv">Hallå! 👋</div>
+                        <div class="word w14 vi">Xin chào! 👋</div>
+                        <div class="word w15 id">Halo! 👋</div>
+                        <div class="word w16 el">Yassas! 👋</div>
+                        <div class="word w17 ko">Annyeonghaseyo! 👋</div>
+                        <div class="word w18 ro">Bună! 👋</div>
+                        <div class="word w19 hu">Helló! 👋</div>
+                        <div class="word w20 cs">Ahoj! 👋</div>
+                      </div>
                 </h3>
                 {% else %}
                 <h3>
@@ -126,23 +152,23 @@
             <section class="col-md-8">
                 <h3>Experience</h3>
                 {% for experience in site.data.experience %}
-                    <p>
-                        <b>
-                            {{ experience.title }}
-                            <br>
-                            <a href="{{ experience.company_url }}">
-                                {{ experience.company }}
-                            </a>
-                        </b>
+                <p>
+                    <b>
+                        {{ experience.title }}
                         <br>
-                            <small>
-                                {{ experience.start_date }} - {{ experience.end_date }}
-                            </small>
-                    </p>
-                    <p align="justify">
-                        {{ experience.description }}
+                        <a href="{{ experience.company_url }}">
+                            {{ experience.company }}
+                        </a>
+                    </b>
                     <br>
-                {% endfor %}
+                    <small>
+                        {{ experience.start_date }} - {{ experience.end_date }}
+                    </small>
+                </p>
+                <p align="justify">
+                    {{ experience.description }}
+                    <br>
+                    {% endfor %}
             </section>
         </div>
     </div>
@@ -159,17 +185,13 @@
 
                 {% for publication in site.data.publications %}
                 <p>
-                    <b>
+                    <b><h4>
                         <a href="{{ publication.pdf }}">
                             {{ publication.title }}
                         </a>
-                    </b>
-                    <small>
-                        {{ publication.year }}
-                    </small>
-                    <br>
-                    {{ publication.authors }}
-                    <br>
+                    </h4></b>
+                    <h5>
+                    {% assign authors = publication.authors | split: ", " %}
                     {% case publication.type %}
                     {% when 'conference' %}
                     {{ publication.conference }}
@@ -186,6 +208,17 @@
                     {{ publication.issue }},
                     {{ publication.pages }}
                     {% endcase %}
+                    , {{ publication.year }}
+                </h5>
+                    <i>
+                        {% for author in authors %}
+                        {% if author == site.data.personal.name %}
+                            <font color="#19f085"><b>{{ site.data.personal.name }}</b>,</font>
+                        {% else %}
+                            {{ author }},
+                        {% endif %}
+                        {% endfor %}
+                    </i>
                 </p>
                 {% endfor %}
             </section>
@@ -244,35 +277,35 @@
     <!-- PRESENTATIONS -->
     <!-- ==================== -->
     {% if site.data.presentations.size > 0 %}
-    <section class="container">
-    <div class="row">
-      <div class="col-md-9">
-        <h3>Presentations</h3>
-      </div>
-    </div>
-
-    {% for presentation in site.data.presentations %}
-    <div class="row">
-        <div class="col-md-9">
-            <p>
-                <b>
-                    {% if presentation.slides_url %}
-                    <a href="{{ presentation.slides_url }}">
-                        {{ presentation.title }}
-                    </a>
-                    {% else %}
-                    {{ presentation.title }}
-                    {% endif %}
-                </b>
-                <small>
-                    {{ presentation.date }}
-                </small>
-                <br>
-                {{ presentation.location }}
-            </p>
+    <section class="container"> 
+        <div class="row">
+            <div class="col-md-9">
+                <h3>Presentations</h3>
+            </div>
         </div>
-    </div>
-    {% endfor %}
+
+        {% for presentation in site.data.presentations %}
+        <div class="row">
+            <div class="col-md-9">
+                <p>
+                    <b>
+                        {% if presentation.slides_url %}
+                        <a href="{{ presentation.slides_url }}">
+                            {{ presentation.title }}
+                        </a>
+                        {% else %}
+                        {{ presentation.title }}
+                        {% endif %}
+                    </b>
+                    <small>
+                        {{ presentation.date }}
+                    </small>
+                    <br>
+                    {{ presentation.location }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
     </section>
     {% endif %}
 
@@ -281,19 +314,19 @@
     <!-- ==================== -->
     <footer>
         <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">          
-          
-        </div>
-      </div>
-    </div>
-    </footer>
+            <div class="row">
+                <div class="col-xs-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
 
+                </div>
+            </div>
+        </div>
+    </footer>
+      
     <!-- ==================== -->
     <!-- JAVASCRIPTS -->
     <!-- ==================== -->

@@ -8,7 +8,8 @@ body {
   font-family:'Roboto', 'Arial', sans-serif;
   font-size:16px;
   padding-top:176px;
-  background-color:#fff;
+  background-color:#000000;
+  color: white;
 }
 
 /*******************
@@ -21,7 +22,7 @@ header {
   left:0;
   right:0;
   padding:32px 0;
-  background-color:#fff;
+  background-color:black;
 }
   header h1 {
     margin:0;
@@ -47,12 +48,18 @@ footer {
 section {
   padding:48px 0;
 }
+  section .word-container {
+    /* color: #19f085; */
+    color: white;
+  }
+
   section h3 {
     padding:0 0 8px;
     line-height:40px;
     font-weight:bold;
     font-size:32px;
-    color:#ff5722;
+    /* color:#ff5722; */
+    color: #19f085;
   }
   section .lead {
     font-size:24px;
@@ -66,6 +73,11 @@ section {
   section a,
   section a:hover {
     color:#44a9eb;
+    /* color: #19f085 */
+  }
+
+  span {
+    color:#19f085;
   }
 
 /*******************
@@ -73,17 +85,19 @@ section {
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color:#44a9eb;
-  color:#fff;
+  /* background-color:#44a9eb; */
+  background-color: #000;
+  color:white;
 }
   .intro-screen h1,
   .intro-screen h2,
   .intro-screen h3 {
-    color:#fff;
+    color: #19f085;
   }
   .intro-screen a,
   .intro-screen a:hover {
-    color:#fff59d;
+    /* color:#fff59d; */
+    color: #19f085;
   }
 
 /*******************

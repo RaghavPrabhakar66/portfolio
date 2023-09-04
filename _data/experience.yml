@@ -5,15 +5,7 @@
   end_date: "Present"
   company_url: "https://mll.iiit.ac.in/"
   company_logo: /img/face_recogntion_system.jpg
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
-    Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
-    sapien at, lobortis erat. Maecenas pretium aliquet laoreet. Aliquam cursus ipsum eros, nec cursus elit 
-    hendrerit et. Etiam faucibus massa sit amet mauris laoreet, id bibendum erat rhoncus. Curabitur nec venenatis risus.
-    Suspendisse potenti. Donec vitae laoreet sem. Integer lacinia, felis euismod fermentum efficitur, sem mi varius ipsum,
-    sed scelerisque neque lacus vehicula mauris. Morbi hendrerit egestas nisi, et scelerisque nisl consequat at. Ut malesuada
-    sapien quis mauris posuere, vitae pretium neque condimentum. Maecenas vitae purus eget massa condimentum feugiat sit amet sed
-    nisl. Aenean vel lorem elit.
+  description:
 
 -
   title: "Research Intern"
@@ -23,14 +15,10 @@
   company_url: "https://robotics.iiit.ac.in/"
   company_logo: /img/face_recogntion_system.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
-    Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
-    sapien at, lobortis erat. Maecenas pretium aliquet laoreet. Aliquam cursus ipsum eros, nec cursus elit 
-    hendrerit et. Etiam faucibus massa sit amet mauris laoreet, id bibendum erat rhoncus. Curabitur nec venenatis risus.
-    Suspendisse potenti. Donec vitae laoreet sem. Integer lacinia, felis euismod fermentum efficitur, sem mi varius ipsum,
-    sed scelerisque neque lacus vehicula mauris. Morbi hendrerit egestas nisi, et scelerisque nisl consequat at. Ut malesuada
-    sapien quis mauris posuere, vitae pretium neque condimentum. Maecenas vitae purus eget massa condimentum feugiat sit amet sed
-    nisl. Aenean vel lorem elit.
+    A pipeline was created to generate detailed top-down maps enriched with instance data, significantly improving the Visual 
+    Language Navigation of an autonomous wheelchair. Additionally, a gesture-controlled robot was engineered to follow a person 
+    while avoiding static obstacles, enhancing its navigation and interaction capabilities. These advancements have promising 
+    applications in fields like healthcare and logistics.
 
 -
   title: "Co-Founder"
@@ -40,14 +28,10 @@
   company_url: "https://flowdrive.ai"
   company_logo: /img/face_recogntion_system.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
-    Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
-    sapien at, lobortis erat. Maecenas pretium aliquet laoreet. Aliquam cursus ipsum eros, nec cursus elit 
-    hendrerit et. Etiam faucibus massa sit amet mauris laoreet, id bibendum erat rhoncus. Curabitur nec venenatis risus.
-    Suspendisse potenti. Donec vitae laoreet sem. Integer lacinia, felis euismod fermentum efficitur, sem mi varius ipsum,
-    sed scelerisque neque lacus vehicula mauris. Morbi hendrerit egestas nisi, et scelerisque nisl consequat at. Ut malesuada
-    sapien quis mauris posuere, vitae pretium neque condimentum. Maecenas vitae purus eget massa condimentum feugiat sit amet sed
-    nisl. Aenean vel lorem elit.
+    I helped develop an open-source, cross-platform Level 2 Advanced Driver Assistance System (ADAS) by using my expertise in 
+    robotics and artificial intelligence. We made sure it worked with various hardware configurations and improved its reliability 
+    and performance through careful data management. We also tested it extensively, especially in real-world scenarios using the 
+    CARLA simulator framework. These efforts resulted in a strong and highly functional ADAS system.
 
 -
   title: "Data Science Fellow"
@@ -57,14 +41,11 @@
   company_url: "https://www.fellowship.ai/"
   company_logo: /img/face_recogntion_system.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
-    Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
-    sapien at, lobortis erat. Maecenas pretium aliquet laoreet. Aliquam cursus ipsum eros, nec cursus elit 
-    hendrerit et. Etiam faucibus massa sit amet mauris laoreet, id bibendum erat rhoncus. Curabitur nec venenatis risus.
-    Suspendisse potenti. Donec vitae laoreet sem. Integer lacinia, felis euismod fermentum efficitur, sem mi varius ipsum,
-    sed scelerisque neque lacus vehicula mauris. Morbi hendrerit egestas nisi, et scelerisque nisl consequat at. Ut malesuada
-    sapien quis mauris posuere, vitae pretium neque condimentum. Maecenas vitae purus eget massa condimentum feugiat sit amet sed
-    nisl. Aenean vel lorem elit.
+    During my tenure, I engaged in rigorous Research and Development (R&D) efforts focused on video classification models,
+    pose estimation techniques, and video analytics. My contributions were instrumental in shaping algorithms and tools designed
+    for the comprehensive analysis of video content. This encompassed pivotal aspects such as feature extraction, meticulous data
+    cleaning, and insightful visualization techniques. My work in this domain was driven by a commitment to advancing the state-of-the-art
+    in video analysis, ultimately contributing to enhanced insights and utility in this dynamic field.
 
 -
   title: "Junior Machine Learning Engineer"
@@ -74,14 +55,11 @@
   company_url: "https://omdena.com/"
   company_logo: /img/face_recogntion_system.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
-    Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
-    sapien at, lobortis erat. Maecenas pretium aliquet laoreet. Aliquam cursus ipsum eros, nec cursus elit 
-    hendrerit et. Etiam faucibus massa sit amet mauris laoreet, id bibendum erat rhoncus. Curabitur nec venenatis risus.
-    Suspendisse potenti. Donec vitae laoreet sem. Integer lacinia, felis euismod fermentum efficitur, sem mi varius ipsum,
-    sed scelerisque neque lacus vehicula mauris. Morbi hendrerit egestas nisi, et scelerisque nisl consequat at. Ut malesuada
-    sapien quis mauris posuere, vitae pretium neque condimentum. Maecenas vitae purus eget massa condimentum feugiat sit amet sed
-    nisl. Aenean vel lorem elit.
+    A real-time object recognition system has been developed and deployed, focusing on the detection of buses and the recognition 
+    of their license plates using Optical Character Recognition (OCR) models. These models have been seamlessly integrated into a 
+    mobile application for real-time bus detection and seat occupancy monitoring. To ensure optimal performance, considerable 
+    effort has been dedicated to model optimization, aiming for efficient processing and low latency. This integrated solution 
+    significantly enhances bus tracking and occupancy management within the mobile app.
 
 -
   title: "Core Member (ML Team)"
@@ -91,11 +69,8 @@
   company_url: "https://dsctiet.com/#/"
   company_logo: /img/face_recogntion_system.jpg
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna vitae augue dictum fringilla. 
-    Etiam congue ut nisi at molestie. Quisque feugiat faucibus tincidunt. Proin eget nulla aliquam, facilisis 
-    sapien at, lobortis erat. Maecenas pretium aliquet laoreet. Aliquam cursus ipsum eros, nec cursus elit 
-    hendrerit et. Etiam faucibus massa sit amet mauris laoreet, id bibendum erat rhoncus. Curabitur nec venenatis risus.
-    Suspendisse potenti. Donec vitae laoreet sem. Integer lacinia, felis euismod fermentum efficitur, sem mi varius ipsum,
-    sed scelerisque neque lacus vehicula mauris. Morbi hendrerit egestas nisi, et scelerisque nisl consequat at. Ut malesuada
-    sapien quis mauris posuere, vitae pretium neque condimentum. Maecenas vitae purus eget massa condimentum feugiat sit amet sed
-    nisl. Aenean vel lorem elit.
+    A pseudo LIDAR system has been developed using cameras and deep learning techniques, utilizing DenseDepth for 3D reconstruction 
+    from monocular images. Multiple deep learning models have also been developed and trained for behavioral cloning in self-driving
+    cars, enabling them to emulate human driving behavior. In addition, lane detection algorithms have been integrated into these 
+    systems, providing robust lane tracking and navigation capabilities. This holistic approach combines 3D scene understanding, 
+    behavioral modeling, and lane detection to improve the performance and safety of autonomous vehicles.
