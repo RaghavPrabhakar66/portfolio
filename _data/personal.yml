@@ -24,7 +24,7 @@ profiles:
   - 
     network: Google Scholar
     username:
-    url: http://scholar.google.com/citations?user=JS7sVyQAAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=TVZhIvkAAAAJ&hl=en
   -
     network: LinkedIn
     username:
