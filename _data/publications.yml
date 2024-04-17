@@ -1,4 +1,15 @@
 -
+  type: journal
+  title: "Physical Reasoning and Object Planning for Household Embodied Agents"
+  authors: Ayush Agarwal, Raghav Prabhakar, Anirudh Goyal, Dianbo Liu
+  journal: Transactions on Machine Learning Research
+  volume: 
+  issue: 
+  pages: 
+  year: 2024
+  pdf: https://arxiv.org/pdf/2311.13577.pdf
+
+-
   type: conference
   title: "Instance-Level Semantic Maps for Vision Language Navigation"
   authors: Laksh Nanwani, Anmol Agarwal, Kanishk Jain, Raghav Prabhakar, Aaron Monis, Aditya Mathur, Krishna Murthy, Abdul Hafez, Vineet Gandhi, K. Madhava Krishna
